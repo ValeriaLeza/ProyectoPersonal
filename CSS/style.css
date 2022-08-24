@@ -21,7 +21,7 @@
 }
   /*Sirve para centrar el contenido*/
   .wrapper{
-    width:90%;
+    width:80%;
     max-width:1000px;
     margin:auto;
     overflow:hidden; /*Lo que no cabe en el div no aparece, ver propiedad css overflow*/
