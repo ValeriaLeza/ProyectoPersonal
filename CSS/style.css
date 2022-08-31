@@ -1,110 +1,72 @@
-*{margin:0;
-    padding:0}
-  
-    body { background: rgb(63,94,251);
+    .nombre{
+        padding: 0.4em;
+        letter-spacing: 0.4em;
+        font-size: 18px;
+        font-weight: 750;
+        font-family:Arial, Helvetica, sans-serif;
+        color: rgb(219, 175, 230);
+        text-align: center;
+        }
+    .nav-item{
+            padding: 0.4em;
+            letter-spacing: 0.4em;
+            font-size: 20px;
+            font-weight: 750;
+            font-family:Arial, Helvetica, sans-serif;
+            color: rgb(10, 17, 110);
+            }
+
+    body { 
+        background: rgb(63,94,251);
         background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-       }
+        }
   
-  header{
-    width:100%;
-    overflow:hidden;
-    background: linear-gradient(90deg, rgb(245, 41, 194) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    margin-bottom:20px;
-  }
-  .img1 {
-    width:70%;
-    height:auto;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+    header{
+        background: linear-gradient(90deg, rgb(245, 41, 194) 0%, rgb(35, 4, 63) 35%, rgb(16, 56, 165) 100%);
+        }
     
-}
-  /*Sirve para centrar el contenido*/
-  .wrapper{
-    width:80%;
-    max-width:1000px;
-    margin:auto;
-    overflow:hidden; /*Lo que no cabe en el div no aparece, ver propiedad css overflow*/
-  }
-  
-  header .logo{
-    color:#ba7eeb;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:45px;
-    line-height:190px;
-    float:left;
+    .img1{ 
+        width:100%;
+        height:auto;
+        border-radius:300px;
+        padding: 2.5em;
+        }
 
-  }
-  
-  header nav{
-    float:right;
-    line-height:200px;
-  }
-  
-  header nav a{
-    display:inline-block; /*NPI*/
-    color:#CFC9C8;
-    text-decoration:none;
-    padding:10px 15px;
-    line-height:normal;
-    font-size:25px;
-    font-weight:bold;
-    -webkit-transition:all 100ms ease;
-    -o-transition:all 500ms ease;
-    transition:all 500ms ease;
-  }
-  
-  header nav a:hover{
-    background-color:#e433af;
-    border-radius:50px;
-  }
-  
-  /*Hace que el header se quede en pantalla*/
-  .header2{ 
-    position:fixed;
-    height:100px;
-  }
-  
-  /*Propiedades del logo del header*/
-  .header2 .logo{
-    line-height:100px;
-    font-size:20px;
-  }
-  
-  .header2 nav{
-    line-height:100px;
-    font-size:20px;
-  }
-  
-  .content p{
-    margin-bottom:1em;
-
-  }
-  /*Centra el contenido que se encuentra en el header*/
-  @media screen and (max-width:1050px){
-    header .logo,
-    header nav{
-      width:100%;
-      text-align:center;
-      line-height:75px;
-    }
-  }
-  
-    .header2{
-    height:auto;
-  }
-  
-    .header2 .logo,
-  .header2 nav{
-    line-height:50px;
-  }
+      
   /*section*/
-  section{text-align: center; width: 75%; background-color: rgb(0, 0, 0); float:left;}
+  section{text-align: center; width: 40%; float:left;}
  /* section h1{ text-align: center; padding: 0.5em;color: blueviolet;font-size: 45px;font-family: Georgia, 'Times New Roman', Times, serif;}
   section h2{ text-align: center; padding: 0.5em;color: rgb(226, 43, 128); }
   section h3{ text-align: center; padding: 0.5em;color: cornflowerblue; margin-left: auto; margin-right: auto; }
   */
 
   /*aside*/
-  aside{ text-align: center; padding: 0.5em;color: rgb(48, 4, 88);font-size: 23px;font-family: Georgia, 'Times New Roman', Times, serif;}
-  /*{width: 25%;float:left;}
+  aside{ text-align: center; padding: 4.2em;color: rgb(48, 4, 88);font-size: 22px;font-family: Georgia, 'Times New Roman', Times, serif;}
+  /*{width: 25%;float:left;}*/
+
+  .social{
+    text-align: center;
+    letter-spacing: 1em;
+   }
+
+   footer{
+    text-align: center;
+   }
+
+   .mision{ 
+    text-align: center; 
+    color: rgb(48, 4, 88);
+    font-size: 23px;font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+
+    .vision{ 
+        text-align: center; 
+        color: rgb(48, 4, 88);
+        font-size: 23px;font-family: Georgia, 'Times New Roman', Times, serif;
+       
+        }
+    
+    .contacto{
+        color: rgb(235, 196, 220); 
+    }
