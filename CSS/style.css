@@ -1,12 +1,13 @@
     .nombre{
-        padding: 0.4em;
-        letter-spacing: 0.4em;
-        font-size: 18px;
-        font-weight: 750;
-        font-family:Arial, Helvetica, sans-serif;
-        color: rgb(219, 175, 230);
-        text-align: center;
+            padding: 0.4em;
+            letter-spacing: 0.4em;
+            font-size: 18px;
+            font-weight: 750;
+            font-family:Arial, Helvetica, sans-serif;
+            color: rgb(219, 175, 230);
+            text-align: center;
         }
+
     .nav-item{
             padding: 0.4em;
             letter-spacing: 0.4em;
@@ -14,34 +15,32 @@
             font-weight: 750;
             font-family:Arial, Helvetica, sans-serif;
             color: rgb(10, 17, 110);
-            }
-
-    body { 
-        background: rgb(63,94,251);
-        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
         }
+
+    body{ 
+        background: rgb(63,94,251);
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgb(252, 70, 197) 100%);
+    }
   
     header{
         background: linear-gradient(90deg, rgb(245, 41, 194) 0%, rgb(35, 4, 63) 35%, rgb(16, 56, 165) 100%);
-        }
+    }
     
+    /*.container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }*/
+
     .img1{ 
-        width:100%;
-        height:auto;
+        width: 300px;
+        height: 300px;
         border-radius:300px;
-        padding: 2.5em;
-        }
+    }
 
-      
-  /*section*/
-  section{text-align: center; width: 40%; float:left;}
- /* section h1{ text-align: center; padding: 0.5em;color: blueviolet;font-size: 45px;font-family: Georgia, 'Times New Roman', Times, serif;}
-  section h2{ text-align: center; padding: 0.5em;color: rgb(226, 43, 128); }
-  section h3{ text-align: center; padding: 0.5em;color: cornflowerblue; margin-left: auto; margin-right: auto; }
-  */
-
+  
   /*aside*/
-  aside{ text-align: center; padding: 4.2em;color: rgb(48, 4, 88);font-size: 22px;font-family: Georgia, 'Times New Roman', Times, serif;}
+  .diseño{padding: 4em;color: rgb(48, 4, 88);font-size: 22px;font-family: Georgia, 'Times New Roman', Times, serif;text-align: center;}
   /*{width: 25%;float:left;}*/
 
   .social{
@@ -54,19 +53,46 @@
    }
 
    .mision{ 
-    text-align: center; 
-    color: rgb(48, 4, 88);
-    font-size: 23px;font-family: Georgia, 'Times New Roman', Times, serif;
-    
+        text-align: center; 
+        color: rgb(48, 4, 88);
+        font-size: 23px;font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 0 auto;
     }
 
     .vision{ 
         text-align: center; 
         color: rgb(48, 4, 88);
         font-size: 23px;font-family: Georgia, 'Times New Roman', Times, serif;
-       
-        }
+        margin: 0 auto;
+    }
     
     .contacto{
         color: rgb(235, 196, 220); 
     }
+
+    @media screen and (max-width: 990px) {
+       
+        .diseño{ 
+
+            padding: 4.2em;
+            color: rgb(48, 4, 88);
+            font-size: 18px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }      
+        .img1{ 
+            margin-bottom: 20px;
+            width: 250px;
+            height: 250px;
+            border-radius:250px;
+        }  
+    }
+
+    @media screen and (min-width: 426px) and (max-width: 767px) {
+       
+        .col{ 
+            flex-direction: column;
+        }      
+        
+    }
+
+   
